@@ -278,11 +278,15 @@ create a slice:
 13. Switch
 
 ```
-if condition1 {
-   // code to be executed if condition1 is true
-  if condition2 {
-     // code to be executed if both condition1 and condition2 are true
-  }
+switch expression {
+case x:
+   // code block
+case y:
+   // code block
+case z:
+...
+default:
+   // code block
 }
 ```
 
